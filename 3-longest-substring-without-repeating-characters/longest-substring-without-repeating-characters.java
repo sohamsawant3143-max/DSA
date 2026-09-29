@@ -16,9 +16,6 @@ class Solution {
                 if(freq.get(leftChar)==0){
                     freq.remove(leftChar);
                 }
-                if(n==0){
-                    return 0;
-                }
                 low++;
                 k=high-low+1;
 
